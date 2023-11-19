@@ -1,0 +1,20 @@
+.contact_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete_btn {
+  cursor: pointer;
+  border: none;
+  border: 1px solid #66ff00;
+  background-color: blanchedalmond;
+  padding: 5px;
+  border-radius: 10px;
+}
