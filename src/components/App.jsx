@@ -15,8 +15,6 @@ class App extends Component {
     console.log(storage);
     if (storage) {
       this.setState({ contacts: JSON.parse(storage) });
-    } else {
-      this.setState({ contacts: this.state.contacts });
     }
   }
 
